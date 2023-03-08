@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net7.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Task1</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\ChartDataUtility\ChartDataUtility.csproj" />
+      <ProjectReference Include="..\DataParseUtility\DataParseUtility.csproj" />
+      <ProjectReference Include="..\EstimatesUtility\EstimatesUtility.csproj" />
+      <ProjectReference Include="..\OutputBuilderUtitlity\OutputBuilderUtitlity.csproj" />
+    </ItemGroup>
+
+</Project>
